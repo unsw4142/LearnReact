@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {View,Image} from 'react-native';
+import Title from './Title';
 
 export default class Header extends Component {
   render(){
@@ -8,6 +9,7 @@ export default class Header extends Component {
     };
       return(
         <View>
+        <Title ti = {this.props.te}/>
         <Image source = {pic} style={{width: 193, height: 110}} />
         </View>
     );

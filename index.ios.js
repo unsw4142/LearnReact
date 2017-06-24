@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import App from './src/App';
 
 export default class TakeOne extends Component {
   render() {
@@ -50,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('TakeOne', () => TakeOne);
+AppRegistry.registerComponent('TakeOne', () => App);

@@ -9,7 +9,7 @@ export default class Header extends Component {
     };
       return(
         <View>
-        <Title ti = {this.props.te}/>
+        <Title style ={this.props.style} ti = {this.props.te}/>
         <Image source = {pic} style={{width: 193, height: 110}} />
         </View>
     );
